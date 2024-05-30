@@ -19,7 +19,7 @@ import * as pkg from "../../package.json";
       <a class="copyright-p-1-1" href="https://github.com/Jeandongjun" target="_blank" rel="noreferrer">
         <div class="copyright-p-1-1-icon" />
       </a>
-      <a :href="pkg.author.url" target="_blank" rel="noreferrer">Jean @{{ pkg.author.name }}</a>
+      <a :href="pkg.author.url" target="_blank" rel="noreferrer">Jean</a>
     </div>
     <p>2024 - {{ new Date().getFullYear() }}</p>
   </div>
